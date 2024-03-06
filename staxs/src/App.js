@@ -4,7 +4,7 @@ import "./App.css";
 import Compare from "./pages/Compare";
 import Timeline from "./pages/Timeline";
 import Dashboard from "./pages/Dashboard";
-import { Router, Routes, Route } from "react-router-dom";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
 function App() {
   return (
